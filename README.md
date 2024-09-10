@@ -5,4 +5,4 @@ This repository contains three scripts:
 - rmproxy : removes proxy files created by `mkproxy` by name (exact match) and creates an inactive backup of that file in `/etc/nginx/sites-available/backup/`
 - lsproxy : lists active proxies created by `mkproxy`
 Nginx restarts are managed by the scripts, they require admin privileges to run.
-If you want to generate certificates, please use the `certbot` python package [https://github.com/certbot
+If you want to generate certificates, please use the `certbot` python package https://github.com/certbot
