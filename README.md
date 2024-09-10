@@ -14,3 +14,11 @@ Usage:
     ```shell
     sudo mkproxy subdomain port
     ```
+- rmproxy :
+    ```shell
+    sudo rmproxy subdomain
+    ```
+- lsproxy :
+    ```shell
+    sudo lsproxy
+    ```
