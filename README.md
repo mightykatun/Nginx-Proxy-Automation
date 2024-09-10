@@ -7,16 +7,16 @@ This repository contains three scripts:
 Nginx restarts are managed by the scripts, they require admin privileges to run.
 If you want to generate certificates, please use the apt `certbot` python package https://github.com/certbot
 
-Don't forget to update the `DOMAIN_NAME` and `NGINX_PATH` variables to suit your needs
+Don't forget to update the `DOMAIN_NAME` and `NGINX_PATH` variables to suit your needs, then put those scripts in your binary dir (usually `/usr/var/bin/` if it's on PATH) and make them executable (`sudo chmod +x <script>`)
 
 Usage:
 - mkproxy :
     ```shell
-    sudo mkproxy subdomain port
+    sudo mkproxy <subdomain> <port>
     ```
 - rmproxy :
     ```shell
-    sudo rmproxy subdomain
+    sudo rmproxy <subdomain>
     ```
 - lsproxy :
     ```shell
