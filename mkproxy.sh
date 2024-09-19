@@ -77,6 +77,7 @@ server{
                 proxy_set_header X-Forwarded-Proto \$scheme;
                 proxy_set_header Upgrade \$http_upgrade;
                 proxy_set_header Connection upgrade;
+                add_header X-Robots-Tag \"noindex, nofollow, nosnippet, noarchive\";
         }
 }" > $NGINX_PATH/sites-available/$1
 else
@@ -97,6 +98,7 @@ server{
                 proxy_set_header X-Forwarded-Proto \$scheme;
                 proxy_set_header Upgrade \$http_upgrade;
                 proxy_set_header Connection upgrade;
+                add_header X-Robots-Tag \"noindex, nofollow, nosnippet, noarchive\";
         }
 }" > $NGINX_PATH/sites-available/$1
 fi
