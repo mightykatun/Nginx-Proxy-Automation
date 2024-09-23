@@ -5,7 +5,7 @@ if [ $EUID -ne 0 ]; then
         exit 1
 fi
 
-DOMAIN_NAME="example.com"
+DOMAIN_NAME="ldak.dev"
 
 NGINX_PATH="/etc/nginx"
 

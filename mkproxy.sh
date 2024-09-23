@@ -10,7 +10,7 @@ if [[ $# -lt 2 ]]; then
         exit 1
 fi
 
-DOMAIN_NAME="example.com"
+DOMAIN_NAME="ldak.dev"
 SUBDOMAIN_NAME=$1.$DOMAIN_NAME
 PORT=$2
 
