@@ -111,3 +111,4 @@ cat $NGINX_PATH/sites-available/$1
 echo ""
 echo "Restarting nginx..." && systemctl restart nginx
 echo "You can now generate certificates using \"sudo certbot --nginx\" (requires root privileges)"
+
