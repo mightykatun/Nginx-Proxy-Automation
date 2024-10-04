@@ -14,7 +14,7 @@ This repository includes three primary scripts:
 
 - The scripts require administrative privileges to run.
 - Ensure `DOMAIN_NAME` and `NGINX_PATH` variables are updated according to your setup.
-- Place the scripts in your binary directory (usually `/usr/local/bin/`) and make them executable:
+- Place the scripts in your binary directory (e.g. `/usr/local/bin/`) and make them executable:
   ```shell
   sudo chmod +x <script>
   ```
