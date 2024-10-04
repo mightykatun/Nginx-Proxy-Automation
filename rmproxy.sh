@@ -44,4 +44,4 @@ rm $NGINX_PATH/sites-enabled/$1
 
 echo -e "File \e[1m$1\e[0m removed successfully"
 echo "Restarting nginx..." && systemctl restart nginx
-echo "You can now update the certificates using \"certbot --nginx\" (requires root privileges)"
+echo "You can now update the certificates using \"sudo certbot --nginx\" (requires root privileges)"
