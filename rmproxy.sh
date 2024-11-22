@@ -12,7 +12,7 @@ fi
 
 NGINX_PATH="/etc/nginx"
 
-DOMAIN_NAME="ldak.dev"
+DOMAIN_NAME="domain.com"
 SUBDOMAIN_NAME=$1.$DOMAIN_NAME
 
 if [[ ! -f $NGINX_PATH/sites-available/$1 ]]; then
