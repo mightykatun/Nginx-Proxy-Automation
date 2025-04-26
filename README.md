@@ -1,4 +1,4 @@
-# Nginx-Proxy-Automation
+# Nginx-proxy Automation
 
 Collection of scripts to automate the creation and management of proxies for an Nginx server.
 
