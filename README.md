@@ -1,6 +1,6 @@
 # Nginx-proxy Automation
 
-Collection of scripts to automate the creation and management of proxies for an Nginx server.
+Collection of scripts to automate the creation and management of proxies for an Nginx proxy server.
 
 ## Contents
 
