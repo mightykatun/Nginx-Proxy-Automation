@@ -37,7 +37,7 @@ sudo rmproxy <subdomain>
 
 ### lsproxy
 
-Lists all active proxies.
+Lists all active proxies created by the script.
 ```shell
 sudo lsproxy
 ```
